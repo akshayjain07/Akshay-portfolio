@@ -185,7 +185,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Akshay's data insights are key to informed decisions. A valuable asset for any data-focused team!",
     name: "Neha Singh",
     designation: "CFO",
     company: "Acme Co",
@@ -193,7 +193,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Efficient and collaborative, Akshay translates complex data into user-friendly solutions seamlessly",
     name: "Akash Kumar",
     designation: "COO",
     company: "DEF Corp",
@@ -201,7 +201,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Akshay's expertise in Python, SQL, and Excel is pivotal for project success. Highly recommended!!",
     name: "Yaseen Khan",
     designation: "CTO",
     company: "456 Enterprises",
