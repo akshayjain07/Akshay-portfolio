@@ -20,6 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import jupyter from "./tech/jupyter.jpg";
+import numpy from "./tech/numpy.jpg";
+import pandas from "./tech/pandas.jpg";
+import powerbi from "./tech/powerbi.jpg";
+import powerpoint from "./tech/powerpoint.jpg";
+import python from "./tech/python.jpg";
+import sql from "./tech/sql.jpg";
+import excel from "./tech/excel.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -52,6 +60,14 @@ export {
   tailwind,
   typescript,
   threejs,
+  jupyter,
+  numpy,
+  pandas,
+  powerbi,
+  python,
+  sql,
+  excel,
+  powerpoint,
   meta,
   shopify,
   starbucks,

@@ -23,6 +23,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  powerbi,
+  excel,  
+  powerpoint,
+  jupyter,
+  numpy,
+  pandas,
+  python,
+  sql,
 } from "../assets";
 
 export const navLinks = [
@@ -42,24 +50,48 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Data Analyst",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Business Analyst",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Data Scienist",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Developer",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "HTML 5",
+    icon: powerbi,
+  },
+  {
+    name: "HTML 5",
+    icon: sql,
+  },
+  {
+    name: "HTML 5",
+    icon: excel,
+  },
+  {
+    name: "HTML 5",
+    icon: python,
+  },
+  {
+    name: "HTML 5",
+    icon: jupyter,
+  },
+  {
+    name: "HTML 5",
+    icon: powerpoint,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -73,20 +105,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -97,20 +117,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -173,7 +181,7 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "Neha Singh",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -181,7 +189,7 @@ const testimonials = [
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Akash Kumar",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -189,7 +197,7 @@ const testimonials = [
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Yaseen Khan",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -198,12 +206,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Price Tracker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Crafted an e-commerce scraping platform using Next.js and Bright Data's webunlocker. Empowers users with price drop alerts and keeps competitors informed about stock status through automated cron jobs, ensuring strategic insights for both.",
     tags: [
       {
-        name: "react",
+        name: "webScraping",
         color: "blue-text-gradient",
       },
       {
@@ -211,54 +219,96 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nextjs",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/akshayjain07/price-tracker",
   },
   {
-    name: "Job IT",
+    name: "Diwali Sales of a shop",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Leveraged Python libraries (Numpy, Pandas, Matplotlib, Seaborn) to analyze last year's Diwali sales data for a shop. Presented actionable insights that propelled this year's Diwali sales.",
     tags: [
       {
-        name: "react",
+        name: "numpy",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "pandas",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "matplotlib",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/akshayjain07/python-data-analysis",
   },
   {
-    name: "Trip Guide",
+    name: "Store Annual Sales Report",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Compiled a comprehensive 2022 annual sales report for Vrinda Store using MS Excel. Conducted data cleaning, constructed pivot tables and charts, and developed a dashboard for valuable insights, driving sales growth in 2023.",
     tags: [
       {
-        name: "nextjs",
+        name: "excel",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "data cleaning",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "pivot table",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/akshayjain07/excel-data-analysis",
+  },
+  {
+    name: "HR Analytics Dashboard",
+    description:
+      "Engineered an online sales dashboard for Madhav Store, facilitating nationwide sales tracking and analysis. The intuitive interface delivers key insights, fostering data-driven decision-making for optimal business performance.",
+    tags: [
+      {
+        name: "powerbi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: " data-driven decision-making",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/akshayjain07/powerBI-data-analysis",
+  },
+  {
+    name: "Music Store Data Analysis",
+    description:
+      "Applied SQL to analyze a vast music playlist database, extracting valuable insights for business growth. Addressed critical questions, aiding the store in understanding customer preferences, optimizing inventory, and making informed decisions for holistic business development.",
+    tags: [
+      {
+        name: "sql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "database",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/akshayjain07/sql-project",
   },
 ];
 
