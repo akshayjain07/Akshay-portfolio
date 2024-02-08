@@ -38,6 +38,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import excel_project from "./excel.jpg";
+import powerbi_project from "./powerbi.jpg";
+import price_tracker_project from "./price-tracker.jpg";
+import python_project from "./python.jpg";
+import sql_project from "./sql.jpg";
+
+
 export {
   logo,
   backend,
@@ -75,4 +82,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  excel_project,
+  python_project,
+  powerbi_project,
+  price_tracker_project,
+  sql_project,
 };

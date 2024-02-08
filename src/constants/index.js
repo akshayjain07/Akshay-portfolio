@@ -31,6 +31,11 @@ import {
   pandas,
   python,
   sql,
+  powerbi_project,
+  excel_project,
+  python_project,
+  sql_project,
+  price_tracker_project
 } from "../assets";
 
 export const navLinks = [
@@ -223,7 +228,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: price_tracker_project,
     source_code_link: "https://github.com/akshayjain07/price-tracker",
   },
   {
@@ -244,7 +249,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: python_project,
     source_code_link: "https://github.com/akshayjain07/python-data-analysis",
   },
   {
@@ -265,7 +270,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: excel_project,
     source_code_link: "https://github.com/akshayjain07/excel-data-analysis",
   },
   {
@@ -286,7 +291,7 @@ const projects = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: tripguide,
+    image: powerbi_project,
     source_code_link: "https://github.com/akshayjain07/powerBI-data-analysis",
   },
   {
@@ -307,7 +312,7 @@ const projects = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: tripguide,
+    image: sql_project,
     source_code_link: "https://github.com/akshayjain07/sql-project",
   },
 ];
