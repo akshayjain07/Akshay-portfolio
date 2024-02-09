@@ -44,6 +44,9 @@ import price_tracker_project from "./price-tracker.jpg";
 import python_project from "./python.jpg";
 import sql_project from "./sql.jpg";
 
+import shaurya_logo from "./shaurya.png";
+import rajbhasha_logo from "./rajbhasha.png";
+
 
 export {
   logo,
@@ -87,4 +90,6 @@ export {
   powerbi_project,
   price_tracker_project,
   sql_project,
+  shaurya_logo,
+  rajbhasha_logo
 };

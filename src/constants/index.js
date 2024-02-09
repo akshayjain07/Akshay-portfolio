@@ -35,7 +35,9 @@ import {
   excel_project,
   python_project,
   sql_project,
-  price_tracker_project
+  price_tracker_project,
+  shaurya_logo,
+  rajbhasha_logo
 } from "../assets";
 
 export const navLinks = [
@@ -129,56 +131,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Shaurya Committee",
+    company_name: "WebD Domain",
+    icon: shaurya_logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2023 - Jan 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the creation of Shaurya Club's sports fest website, 'Samar', using React, Three.js, and Tailwind CSS, deploying a 3D model for an engaging user experience.",
+      "Demonstrated effective team leadership, assigning tasks to juniors, fostering skill development, and contributing to successful project completion.",
+      "Managed and version-controlled the project efficiently on GitHub.",
+      "Strengthened networking with seniors, enhancing web development skills.",
     ],
+    link:"https://samar2k22.netlify.app/",
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Rajbhasha Club",
+    company_name: "WebD Domain",
+    icon: rajbhasha_logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Ongoing",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Drove backend development for the Rajbhasha Club's website, implementing a robust forum with interactive features and efficient certificate issuance through face recognition.",
+      "Spearheaded the integration of machine learning programs, enhancing the website's functionality and user experience.",
+      "Demonstrated expertise in backend systems, ensuring seamless data processing and storage.",
+      "Contributed to a collaborative and innovative environment, leveraging backend and machine learning skills for a dynamic web platform.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    link:"https://samar2k22.netlify.app/",
   },
 ];
 
@@ -234,7 +212,7 @@ const projects = [
   {
     name: "Diwali Sales of a shop",
     description:
-      "Leveraged Python libraries (Numpy, Pandas, Matplotlib, Seaborn) to analyze last year's Diwali sales data for a shop. Presented actionable insights that propelled this year's Diwali sales.",
+      "Analyzed last year's Diwali sales data for a shop using Python and its libraries (Numpy, Pandas, Matplotlib, Seaborn). Presented actionable insights, driving impactful strategies that propelled this year's Diwali sales success.",
     tags: [
       {
         name: "numpy",
@@ -297,7 +275,7 @@ const projects = [
   {
     name: "Music Store Data Analysis",
     description:
-      "Applied SQL to analyze a vast music playlist database, extracting valuable insights for business growth. Addressed critical questions, aiding the store in understanding customer preferences, optimizing inventory, and making informed decisions for holistic business development.",
+      "Applied SQL to analyze a vast music playlist database, extracting valuable insights for business growth. Addressed critical questions, aiding the store in understanding customer preferences and making informed decisions for holistic business development.",
     tags: [
       {
         name: "sql",
